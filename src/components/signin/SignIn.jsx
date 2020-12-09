@@ -57,11 +57,11 @@ export default class SignIn extends Component {
 
           <div className="buttons">
             <CustomButton type="submit" onSubmit={this.handleSubmit}>
-              Sign In
+              SIGN IN
             </CustomButton>
 
             <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-              Sign in with Google
+              SIGN IN GOOGLE
             </CustomButton>
           </div>
         </form>
